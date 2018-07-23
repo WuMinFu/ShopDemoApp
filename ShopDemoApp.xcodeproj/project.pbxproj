@@ -12,6 +12,7 @@
 		04E3D719210485A90057E039 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E3D717210485A90057E039 /* Main.storyboard */; };
 		04E3D71B210485AA0057E039 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E3D71A210485AA0057E039 /* Assets.xcassets */; };
 		04E3D71E210485AA0057E039 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E3D71C210485AA0057E039 /* LaunchScreen.storyboard */; };
+		04E3D726210493F90057E039 /* ShopTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3D725210493F90057E039 /* ShopTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		04E3D71A210485AA0057E039 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04E3D71D210485AA0057E039 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04E3D71F210485AA0057E039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E3D725210493F90057E039 /* ShopTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				04E3D713210485A90057E039 /* AppDelegate.swift */,
 				04E3D715210485A90057E039 /* ViewController.swift */,
+				04E3D725210493F90057E039 /* ShopTableViewController.swift */,
 				04E3D717210485A90057E039 /* Main.storyboard */,
 				04E3D71A210485AA0057E039 /* Assets.xcassets */,
 				04E3D71C210485AA0057E039 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				04E3D716210485A90057E039 /* ViewController.swift in Sources */,
 				04E3D714210485A90057E039 /* AppDelegate.swift in Sources */,
+				04E3D726210493F90057E039 /* ShopTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ShopDemoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ShopDemoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
